@@ -1,0 +1,31 @@
+html {
+	text-align: center;
+}
+h1, h4, a, p {
+	font-family: 'Titillium Web', sans-serif;
+	color: #404040;
+}
+p {
+	font-style: italic;
+	height: 24px;
+}
+button {
+	font-family: 'Titillium Web', sans-serif;
+	margin: 0 auto;
+	color: #fff;
+	font-weight: bold;
+	display: block;
+	background: red;
+	border: none;
+	padding: 10px 20px;
+	border-radius: 3px;
+}
+button:focus {
+	outline: none;
+}
+#vert-center {
+	position: absolute;
+	top: 20%;
+	left: 0;
+	width: 100%;
+}
